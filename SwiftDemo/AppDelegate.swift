@@ -3,7 +3,7 @@
 //  SwiftDemo
 //
 //  Created by chenhao on 2018/7/19.
-//  Copyright © 2018年 zxd. All rights reserved.
+//  Copyright © 2018 zxd. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
         return true
     }
 
