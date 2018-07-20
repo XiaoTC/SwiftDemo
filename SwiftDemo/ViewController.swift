@@ -9,17 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //MARK:---------------------------------Life Cycle----------------------
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        
     }
+    
+    //MARK: ----------------------------Getter and Setter-----------------------------
+    //fileprivate var menuController: 
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+
+}
+
+
+
+//MARK: --------------------------------------------Private Methods----------------------------------
+
+extension ViewController {
+    fileprivate func initRootViewController() {
+        
     }
-
-
+    
+    
+    
 }
 

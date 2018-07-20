@@ -14,6 +14,16 @@
 		8BA2A3C9210039B80059A533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2A3C7210039B80059A533 /* LaunchScreen.storyboard */; };
 		8BA2A3D4210039B90059A533 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2A3D3210039B90059A533 /* SwiftDemoTests.swift */; };
 		8BA2A3DF210039B90059A533 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2A3DE210039B90059A533 /* SwiftDemoUITests.swift */; };
+		8BC54A6C2101C81600E4FCBA /* XTCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A6B2101C81600E4FCBA /* XTCTabBarController.swift */; };
+		8BC54A6E2101C85D00E4FCBA /* XTCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A6D2101C85D00E4FCBA /* XTCHomeViewController.swift */; };
+		8BC54A702101C87E00E4FCBA /* XTCCateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A6F2101C87E00E4FCBA /* XTCCateListViewController.swift */; };
+		8BC54A722101C8AA00E4FCBA /* XTCBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A712101C8AA00E4FCBA /* XTCBookViewController.swift */; };
+		8BC54A742101C8C000E4FCBA /* XTCMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A732101C8C000E4FCBA /* XTCMineViewController.swift */; };
+		8BC54A762101C9D600E4FCBA /* XTCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A752101C9D600E4FCBA /* XTCBaseViewController.swift */; };
+		8BC54A782101CA0200E4FCBA /* XTCPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A772101CA0200E4FCBA /* XTCPageViewController.swift */; };
+		8BC54A7A2101CE0300E4FCBA /* XTCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A792101CE0300E4FCBA /* XTCNavigationController.swift */; };
+		8BC54A7D2101D3D200E4FCBA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A7C2101D3D200E4FCBA /* UIColorExtension.swift */; };
+		8BC54A7F2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A7E2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		8BA2A3DA210039B90059A533 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA2A3DE210039B90059A533 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		8BA2A3E0210039B90059A533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC54A6B2101C81600E4FCBA /* XTCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCTabBarController.swift; sourceTree = "<group>"; };
+		8BC54A6D2101C85D00E4FCBA /* XTCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCHomeViewController.swift; sourceTree = "<group>"; };
+		8BC54A6F2101C87E00E4FCBA /* XTCCateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCCateListViewController.swift; sourceTree = "<group>"; };
+		8BC54A712101C8AA00E4FCBA /* XTCBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBookViewController.swift; sourceTree = "<group>"; };
+		8BC54A732101C8C000E4FCBA /* XTCMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCMineViewController.swift; sourceTree = "<group>"; };
+		8BC54A752101C9D600E4FCBA /* XTCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBaseViewController.swift; sourceTree = "<group>"; };
+		8BC54A772101CA0200E4FCBA /* XTCPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCPageViewController.swift; sourceTree = "<group>"; };
+		8BC54A792101CE0300E4FCBA /* XTCNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCNavigationController.swift; sourceTree = "<group>"; };
+		8BC54A7C2101D3D200E4FCBA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8BC54A7E2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,8 @@
 			children = (
 				8BA2A3BE210039B80059A533 /* AppDelegate.swift */,
 				8BA2A3C0210039B80059A533 /* ViewController.swift */,
+				8BC54A7B2101D3B500E4FCBA /* Extension */,
+				8BA2A3EC21005F210059A533 /* Base */,
 				8BA2A3C2210039B80059A533 /* Main.storyboard */,
 				8BA2A3C5210039B80059A533 /* Assets.xcassets */,
 				8BA2A3C7210039B80059A533 /* LaunchScreen.storyboard */,
@@ -123,6 +145,30 @@
 				8BA2A3E0210039B90059A533 /* Info.plist */,
 			);
 			path = SwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		8BA2A3EC21005F210059A533 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8BC54A6B2101C81600E4FCBA /* XTCTabBarController.swift */,
+				8BC54A792101CE0300E4FCBA /* XTCNavigationController.swift */,
+				8BC54A752101C9D600E4FCBA /* XTCBaseViewController.swift */,
+				8BC54A772101CA0200E4FCBA /* XTCPageViewController.swift */,
+				8BC54A6D2101C85D00E4FCBA /* XTCHomeViewController.swift */,
+				8BC54A6F2101C87E00E4FCBA /* XTCCateListViewController.swift */,
+				8BC54A712101C8AA00E4FCBA /* XTCBookViewController.swift */,
+				8BC54A732101C8C000E4FCBA /* XTCMineViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8BC54A7B2101D3B500E4FCBA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BC54A7C2101D3D200E4FCBA /* UIColorExtension.swift */,
+				8BC54A7E2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC54A702101C87E00E4FCBA /* XTCCateListViewController.swift in Sources */,
+				8BC54A782101CA0200E4FCBA /* XTCPageViewController.swift in Sources */,
+				8BC54A722101C8AA00E4FCBA /* XTCBookViewController.swift in Sources */,
 				8BA2A3C1210039B80059A533 /* ViewController.swift in Sources */,
+				8BC54A6E2101C85D00E4FCBA /* XTCHomeViewController.swift in Sources */,
+				8BC54A742101C8C000E4FCBA /* XTCMineViewController.swift in Sources */,
 				8BA2A3BF210039B80059A533 /* AppDelegate.swift in Sources */,
+				8BC54A6C2101C81600E4FCBA /* XTCTabBarController.swift in Sources */,
+				8BC54A7F2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift in Sources */,
+				8BC54A7D2101D3D200E4FCBA /* UIColorExtension.swift in Sources */,
+				8BC54A762101C9D600E4FCBA /* XTCBaseViewController.swift in Sources */,
+				8BC54A7A2101CE0300E4FCBA /* XTCNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd..SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxd..SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
