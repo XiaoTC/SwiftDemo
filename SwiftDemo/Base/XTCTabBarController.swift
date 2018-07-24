@@ -31,34 +31,34 @@ class XTCTabBarController: UITabBarController {
                                selectedImage: UIImage(named: "tab_home_S"))
         
         
-//        /// 分类
-//        let classVC = XTCCateListViewController()
-//        addChildViewController(classVC,
-//                               title: "分类",
-//                               image: UIImage(named: "tab_class"),
-//                               selectedImage: UIImage(named: "tab_class_S"))
-//
-//
-//        /// 书架
-//        let bookVC = XTCBookViewController(titles: ["收藏",
-//                                                  "书单",
-//                                                  "下载"],
-//                                         vcs: [UCollectListViewController(),
-//                                               UDocumentListViewController(),
-//                                               UDownloadListViewController()],
-//                                         pageStyle: .navgationBarSegment)
-//        addChildViewController(bookVC,
-//                               title: "书架",
-//                               image: UIImage(named: "tab_book"),
-//                               selectedImage: UIImage(named: "tab_book_S"))
-//
-//
-//        /// 我的
-//        let mineVC = XTCMineViewController()
-//        addChildViewController(mineVC,
-//                               title: "我的",
-//                               image: UIImage(named: "tab_mine"),
-//                               selectedImage: UIImage(named: "tab_mine_S"))
+        /// 分类
+        let classVC = XTCCateListViewController()
+        addChildViewController(classVC,
+                               title: "分类",
+                               image: UIImage(named: "tab_class"),
+                               selectedImage: UIImage(named: "tab_class_S"))
+
+
+        /// 书架
+        let bookVC = XTCBookViewController(titles: ["收藏",
+                                                  "书单",
+                                                  "下载"],
+                                         vcs: [XTCCollectionListViewController(),
+                                               XTCDocumentListViewController(),
+                                               XTCDownloadListViewController()],
+                                         pageStyle: .navigationBarSegment)
+        addChildViewController(bookVC,
+                               title: "书架",
+                               image: UIImage(named: "tab_book"),
+                               selectedImage: UIImage(named: "tab_book_S"))
+
+
+        // 我的
+        let mineVC = XTCMineViewController()
+        addChildViewController(mineVC,
+                               title: "我的",
+                               image: UIImage(named: "tab_mine"),
+                               selectedImage: UIImage(named: "tab_mine_S"))
     }
     
     func addChildViewController(_ childController: UIViewController, title:String?, image:UIImage? ,selectedImage:UIImage?) {

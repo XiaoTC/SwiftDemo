@@ -24,10 +24,13 @@ class XTCBaseViewController: UIViewController {
             automaticallyAdjustsScrollViewInsets = false
         }
         
+        configUI()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        configNavigationBar()
     }
     
     func configUI() {}
