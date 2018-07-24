@@ -1,14 +1,14 @@
 //
-//  XTCHomeViewController.swift
+//  XTCBoutiqueListViewController.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/20.
+//  Created by chenhao on 2018/7/23.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 
 import UIKit
 
-class XTCHomeViewController: XTCPageViewController {
+class XTCBoutiqueListViewController: XTCBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

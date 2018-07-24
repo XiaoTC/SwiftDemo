@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import SnapKit
+import Then
+import Reusable
+import Kingfisher
 
 class XTCBaseViewController: UIViewController {
 
@@ -25,6 +29,8 @@ class XTCBaseViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
+    
+    func configUI() {}
     
     func configNavigationBar() {
         guard let navi = navigationController else { return }
