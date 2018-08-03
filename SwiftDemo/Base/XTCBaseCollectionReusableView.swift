@@ -1,15 +1,14 @@
 //
-//  XTCBaseCollectionViewCell.swift
+//  XTCBaseCollectionReusableView.swift
 //  SwiftDemo
 //
-//  Created by xiaotianchi on 2018/8/2.
+//  Created by chenhao on 2018/8/3.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 
 import UIKit
-import Reusable
 
-class XTCBaseCollectionViewCell: UICollectionViewCell, Reusable{
+class XTCBaseCollectionReusableView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         configUI()

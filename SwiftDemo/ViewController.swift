@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/19.
+//  Created by xiaotianchi on 2018/7/19.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 

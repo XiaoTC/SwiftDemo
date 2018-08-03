@@ -2,7 +2,7 @@
 //  XTCSubscribeListViewController.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/23.
+//  Created by xiaotianchi on 2018/7/23.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 

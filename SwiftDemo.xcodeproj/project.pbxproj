@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		061E0D428B80425673826028 /* Pods_SwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E373A32A297C53F87AF14F12 /* Pods_SwiftDemoUITests.framework */; };
 		28C31430B987F8CCFAAC5BB7 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DA2E3C2C80B7619A3AEB4B /* Pods_SwiftDemo.framework */; };
+		8B5C403521144C3B00D2FDF8 /* XTCCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C403421144C3B00D2FDF8 /* XTCCollectionViewLayout.swift */; };
+		8B5C403721144E7400D2FDF8 /* XTCBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C403621144E7400D2FDF8 /* XTCBaseCollectionReusableView.swift */; };
+		8B5C403921144ECE00D2FDF8 /* XTCCommicHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C403821144ECE00D2FDF8 /* XTCCommicHead.swift */; };
+		8B5C403B21144EEA00D2FDF8 /* XTCComicFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C403A21144EEA00D2FDF8 /* XTCComicFoot.swift */; };
 		8B7AA1222106FCD00011C09C /* XTCCollectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AA1212106FCD00011C09C /* XTCCollectionListViewController.swift */; };
 		8B7AA1242106FCEC0011C09C /* XTCDocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AA1232106FCEC0011C09C /* XTCDocumentListViewController.swift */; };
 		8B7AA1262106FD030011C09C /* XTCDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AA1252106FD030011C09C /* XTCDownloadListViewController.swift */; };
@@ -71,6 +75,10 @@
 		57AC6B205F1A110ED422622A /* Pods_SwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F6DFD368BC0176906C30F5 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		89233CAC69CB7C9A8B2D9804 /* Pods-SwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemoTests/Pods-SwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B5C403421144C3B00D2FDF8 /* XTCCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCCollectionViewLayout.swift; sourceTree = "<group>"; };
+		8B5C403621144E7400D2FDF8 /* XTCBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		8B5C403821144ECE00D2FDF8 /* XTCCommicHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCCommicHead.swift; sourceTree = "<group>"; };
+		8B5C403A21144EEA00D2FDF8 /* XTCComicFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCComicFoot.swift; sourceTree = "<group>"; };
 		8B7AA1212106FCD00011C09C /* XTCCollectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCCollectionListViewController.swift; sourceTree = "<group>"; };
 		8B7AA1232106FCEC0011C09C /* XTCDocumentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCDocumentListViewController.swift; sourceTree = "<group>"; };
 		8B7AA1252106FD030011C09C /* XTCDownloadListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCDownloadListViewController.swift; sourceTree = "<group>"; };
@@ -297,6 +305,7 @@
 				8BC54A752101C9D600E4FCBA /* XTCBaseViewController.swift */,
 				8BC54A772101CA0200E4FCBA /* XTCPageViewController.swift */,
 				8BC289122112D73600E9F8DD /* XTCBaseCollectionViewCell.swift */,
+				8B5C403621144E7400D2FDF8 /* XTCBaseCollectionReusableView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -306,6 +315,9 @@
 			children = (
 				8BC289162112D8D700E9F8DD /* XTCComicCollectionViewCell.swift */,
 				8BC289182112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift */,
+				8B5C403421144C3B00D2FDF8 /* XTCCollectionViewLayout.swift */,
+				8B5C403821144ECE00D2FDF8 /* XTCCommicHead.swift */,
+				8B5C403A21144EEA00D2FDF8 /* XTCComicFoot.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -580,6 +592,7 @@
 				8BC54A722101C8AA00E4FCBA /* XTCBookViewController.swift in Sources */,
 				8B7AA1242106FCEC0011C09C /* XTCDocumentListViewController.swift in Sources */,
 				8B9395F32105CA9C00C7360D /* XTCRankListViewController.swift in Sources */,
+				8B5C403921144ECE00D2FDF8 /* XTCCommicHead.swift in Sources */,
 				8BC289192112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift in Sources */,
 				8B9395E72105CA1200C7360D /* XTCSubscribeListViewController.swift in Sources */,
 				8B7AA1262106FD030011C09C /* XTCDownloadListViewController.swift in Sources */,
@@ -587,14 +600,17 @@
 				8B7AA12B21070AA60011C09C /* Global.swift in Sources */,
 				8B7AA12F210720590011C09C /* XTCModel.swift in Sources */,
 				8B9395F12105CA8100C7360D /* XTCBoutiqueListViewController.swift in Sources */,
+				8B5C403721144E7400D2FDF8 /* XTCBaseCollectionReusableView.swift in Sources */,
 				8B9395F52105CC4200C7360D /* XTCSearchViewController.swift in Sources */,
 				8BC289132112D73600E9F8DD /* XTCBaseCollectionViewCell.swift in Sources */,
+				8B5C403B21144EEA00D2FDF8 /* XTCComicFoot.swift in Sources */,
 				8B9395EB2105CA4800C7360D /* XTCUpdateListViewController.swift in Sources */,
 				8BC54A742101C8C000E4FCBA /* XTCMineViewController.swift in Sources */,
 				8BA2A3BF210039B80059A533 /* AppDelegate.swift in Sources */,
 				8BC54A6C2101C81600E4FCBA /* XTCTabBarController.swift in Sources */,
 				8BC54A7F2101D7FE00E4FCBA /* UIBarButtonItemExtension.swift in Sources */,
 				8BC54A7D2101D3D200E4FCBA /* UIColorExtension.swift in Sources */,
+				8B5C403521144C3B00D2FDF8 /* XTCCollectionViewLayout.swift in Sources */,
 				8B9395EF2105CA6900C7360D /* XTCSpecialViewController.swift in Sources */,
 				8BC54A762101C9D600E4FCBA /* XTCBaseViewController.swift in Sources */,
 				8B9395ED2105CA5A00C7360D /* XTCHomeViewController.swift in Sources */,

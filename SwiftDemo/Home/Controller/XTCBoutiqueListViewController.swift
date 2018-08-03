@@ -2,7 +2,7 @@
 //  XTCBoutiqueListViewController.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/23.
+//  Created by xiaotianchi on 2018/7/23.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 
@@ -30,10 +30,9 @@ class XTCBoutiqueListViewController: XTCBaseViewController {
     }()
     
     private lazy var collectionView: UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
+        let layout = XTCCollectionViewLayout()
         layout.minimumLineSpacing = 5
         layout.minimumInteritemSpacing = 10
-        layout.itemSize = CGSize(width: 120, height: 100)
         let collection = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         collection.backgroundColor = UIColor.background
         collection.contentInset = UIEdgeInsetsMake(screenWidth * 0.467, 0, 0, 0)

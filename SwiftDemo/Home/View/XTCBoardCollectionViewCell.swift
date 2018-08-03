@@ -2,7 +2,7 @@
 //  XTCBoardCollectionViewCell.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/8/2.
+//  Created by xiaotianchi on 2018/8/2.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 

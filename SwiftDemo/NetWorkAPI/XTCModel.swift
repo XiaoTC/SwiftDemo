@@ -2,7 +2,7 @@
 //  XTCModel.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/24.
+//  Created by xiaotianchi on 2018/7/24.
 //  Copyright © 2018年 zxd. All rights reserved.
 //
 import HandyJSON

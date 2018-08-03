@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftDemo
 //
-//  Created by chenhao on 2018/7/19.
+//  Created by xiaotianchi on 2018/7/19.
 //  Copyright © 2018 zxd. All rights reserved.
 //
 
