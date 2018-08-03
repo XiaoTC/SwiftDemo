@@ -31,6 +31,9 @@
 		8BA2A3C9210039B80059A533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA2A3C7210039B80059A533 /* LaunchScreen.storyboard */; };
 		8BA2A3D4210039B90059A533 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2A3D3210039B90059A533 /* SwiftDemoTests.swift */; };
 		8BA2A3DF210039B90059A533 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2A3DE210039B90059A533 /* SwiftDemoUITests.swift */; };
+		8BC289132112D73600E9F8DD /* XTCBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC289122112D73600E9F8DD /* XTCBaseCollectionViewCell.swift */; };
+		8BC289172112D8D700E9F8DD /* XTCComicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC289162112D8D700E9F8DD /* XTCComicCollectionViewCell.swift */; };
+		8BC289192112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC289182112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift */; };
 		8BC54A6C2101C81600E4FCBA /* XTCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A6B2101C81600E4FCBA /* XTCTabBarController.swift */; };
 		8BC54A702101C87E00E4FCBA /* XTCCateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A6F2101C87E00E4FCBA /* XTCCateListViewController.swift */; };
 		8BC54A722101C8AA00E4FCBA /* XTCBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54A712101C8AA00E4FCBA /* XTCBookViewController.swift */; };
@@ -96,6 +99,9 @@
 		8BA2A3DA210039B90059A533 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA2A3DE210039B90059A533 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		8BA2A3E0210039B90059A533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC289122112D73600E9F8DD /* XTCBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BC289162112D8D700E9F8DD /* XTCComicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCComicCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BC289182112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBoardCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BC54A6B2101C81600E4FCBA /* XTCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCTabBarController.swift; sourceTree = "<group>"; };
 		8BC54A6F2101C87E00E4FCBA /* XTCCateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCCateListViewController.swift; sourceTree = "<group>"; };
 		8BC54A712101C8AA00E4FCBA /* XTCBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTCBookViewController.swift; sourceTree = "<group>"; };
@@ -197,13 +203,8 @@
 		8B7AA11F2106FB0D0011C09C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8B9395EC2105CA5A00C7360D /* XTCHomeViewController.swift */,
-				8B9395E62105CA1200C7360D /* XTCSubscribeListViewController.swift */,
-				8B9395E82105CA3000C7360D /* XTCVIPListViewController.swift */,
-				8B9395EA2105CA4800C7360D /* XTCUpdateListViewController.swift */,
-				8B9395EE2105CA6900C7360D /* XTCSpecialViewController.swift */,
-				8B9395F02105CA8100C7360D /* XTCBoutiqueListViewController.swift */,
-				8B9395F22105CA9C00C7360D /* XTCRankListViewController.swift */,
+				8BC289142112D89200E9F8DD /* View */,
+				8BC289152112D89A00E9F8DD /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -295,8 +296,32 @@
 				8BC54A792101CE0300E4FCBA /* XTCNavigationController.swift */,
 				8BC54A752101C9D600E4FCBA /* XTCBaseViewController.swift */,
 				8BC54A772101CA0200E4FCBA /* XTCPageViewController.swift */,
+				8BC289122112D73600E9F8DD /* XTCBaseCollectionViewCell.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		8BC289142112D89200E9F8DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BC289162112D8D700E9F8DD /* XTCComicCollectionViewCell.swift */,
+				8BC289182112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BC289152112D89A00E9F8DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B9395EC2105CA5A00C7360D /* XTCHomeViewController.swift */,
+				8B9395E62105CA1200C7360D /* XTCSubscribeListViewController.swift */,
+				8B9395E82105CA3000C7360D /* XTCVIPListViewController.swift */,
+				8B9395EA2105CA4800C7360D /* XTCUpdateListViewController.swift */,
+				8B9395EE2105CA6900C7360D /* XTCSpecialViewController.swift */,
+				8B9395F02105CA8100C7360D /* XTCBoutiqueListViewController.swift */,
+				8B9395F22105CA9C00C7360D /* XTCRankListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8BC54A7B2101D3B500E4FCBA /* Extension */ = {
@@ -548,12 +573,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC289172112D8D700E9F8DD /* XTCComicCollectionViewCell.swift in Sources */,
 				8BC54A702101C87E00E4FCBA /* XTCCateListViewController.swift in Sources */,
 				8B7AA131210720F80011C09C /* UIDeviceExtension.swift in Sources */,
 				8BC54A782101CA0200E4FCBA /* XTCPageViewController.swift in Sources */,
 				8BC54A722101C8AA00E4FCBA /* XTCBookViewController.swift in Sources */,
 				8B7AA1242106FCEC0011C09C /* XTCDocumentListViewController.swift in Sources */,
 				8B9395F32105CA9C00C7360D /* XTCRankListViewController.swift in Sources */,
+				8BC289192112DC5C00E9F8DD /* XTCBoardCollectionViewCell.swift in Sources */,
 				8B9395E72105CA1200C7360D /* XTCSubscribeListViewController.swift in Sources */,
 				8B7AA1262106FD030011C09C /* XTCDownloadListViewController.swift in Sources */,
 				8BA2A3C1210039B80059A533 /* ViewController.swift in Sources */,
@@ -561,6 +588,7 @@
 				8B7AA12F210720590011C09C /* XTCModel.swift in Sources */,
 				8B9395F12105CA8100C7360D /* XTCBoutiqueListViewController.swift in Sources */,
 				8B9395F52105CC4200C7360D /* XTCSearchViewController.swift in Sources */,
+				8BC289132112D73600E9F8DD /* XTCBaseCollectionViewCell.swift in Sources */,
 				8B9395EB2105CA4800C7360D /* XTCUpdateListViewController.swift in Sources */,
 				8BC54A742101C8C000E4FCBA /* XTCMineViewController.swift in Sources */,
 				8BA2A3BF210039B80059A533 /* AppDelegate.swift in Sources */,
